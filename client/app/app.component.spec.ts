@@ -35,7 +35,7 @@ describe('Wel',() => {
     });
 
     it('should display a different test title', () => {
-      //  comp.title = 'Great man';
+        comp.title = 'Great man';
         fixture.detectChanges();
         expect(el.textContent).toContain(comp.title);
     });
