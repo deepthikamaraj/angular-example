@@ -2,5 +2,4 @@ test:
   pre:
     - npm --prefix ./client install 
   override:
-   
-    - npm test ./client/karma.conf.js --single-run
+      - npm test ./client/karma.conf.js --single-run
